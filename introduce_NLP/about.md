@@ -16,3 +16,7 @@ Tokenization is a convenient way to split text into smaller units, such as words
 
 **Sentence Tokenization**: This splits the text into sentences. It helps analyze how words are related to one another and provides more context for understanding the meaning of the text.
 
+* To perform tokenization using NLTK you can run the following code:
+```
+python learn_nltk_tokenization_nlp.py
+```
