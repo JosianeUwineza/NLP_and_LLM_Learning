@@ -33,3 +33,23 @@ Stopwords are common words in a language( such as the, is, and, in , of ) that u
 ```
 python filtering_stopwords.py
 ```
+## Stemming in NLP
+Stemming is a text processing technique using in NLP to redude words to their base or root form. It removes suffixes such as : -ing, ed, er, s, and -ly to group related words under common root.
+* For example :
+  * helping to help
+  * helped to help
+  * helper to help
+  * studying - study
+* The aim of the stemming is to reduce vocaburaly size and treat similar words as the same feature. which is espicially useful in traditional machine learning approaches like Bag-of_Words and TF-IDF
+### Why use stemming
+* To reduce dimensionality
+* To improve model generalization
+* Sppeds up computation
+### Porter Stemmer
+One commonly used stemming algorithm is the Porter Stemming Algorithm, which applies rule-based transformations to remove common suffixes.
+* Limitations of this:
+   * May produce non dictionary word
+   * Does not consider grammar or context
+### Stemming overestimation and understimation
+* **Stemming underestimation** occurs when two related words that are expected to reduce to the same root form fail to do so. This is False negative
+* **Stemming overestimation** happens when two unrelated words are reduced to the same root. This results in a false positive.,
