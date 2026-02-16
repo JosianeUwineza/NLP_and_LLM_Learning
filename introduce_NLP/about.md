@@ -28,4 +28,8 @@ Stopwords are common words in a language( such as the, is, and, in , of ) that u
     * Improve model performance.
   * For example: " The patient is in the hospital for a liver examination" after removing stopwords it becomes: "patient hospital liver examination"
 
-*
+* However in modern deep learning models such as transformer-based architetures (e.g. , BERT, GPT) stopwords are usually not removed, because these models rely on full sentence context to understand meaning. Removing words like not could completely change the interpertation of a sentence.
+* To remove the stopwords run the following code:
+```
+python filtering_stopwords.py
+```
