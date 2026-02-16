@@ -53,3 +53,4 @@ One commonly used stemming algorithm is the Porter Stemming Algorithm, which app
 ### Stemming overestimation and understimation
 * **Stemming underestimation** occurs when two related words that are expected to reduce to the same root form fail to do so. This is False negative
 * **Stemming overestimation** happens when two unrelated words are reduced to the same root. This results in a false positive.,
+* To to perform stemmization run the following code:   ` python learn_stemming.py`
