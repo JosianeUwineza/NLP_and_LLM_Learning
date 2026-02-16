@@ -20,3 +20,12 @@ Tokenization is a convenient way to split text into smaller units, such as words
 ```
 python learn_nltk_tokenization_nlp.py
 ```
+## Stopwords in NLP
+Stopwords are common words in a language( such as the, is, and, in , of ) that usually carry a little meaningfull information in many NLP tasks.
+* In traditional NLP approaches like Bag-of-words and TF-IDF , stops words are often removed to
+    * Reduce noise
+    * Decrease dimensionality and
+    * Improve model performance.
+  * For example: " The patient is in the hospital for a liver examination" after removing stopwords it becomes: "patient hospital liver examination"
+
+*
