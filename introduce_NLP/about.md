@@ -92,6 +92,18 @@ POS tagging assigns a grammatical label to each word in a sentence
   | was  | be| 
 
   * If you want an example of lemmatization run this code : ` python lemmatization.py`
+
+## Chunking and Chinking
+### Chunking
+Chunking groups word into phrases which are meaningfull units that perform a grammatically functions. For examples, noun phrases (NP) are built around a noun.
+* Examples Phrases:
+  * A Planet
+  * A tilting planet
+  * A swiftly planet
+### Chinking
+Chinking is used together with chunking but does the opposite:
+* Chunking: include a pattern
+* Chinking : exclude a pattern  
   
 
 
