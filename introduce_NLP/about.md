@@ -90,6 +90,8 @@ POS tagging assigns a grammatical label to each word in a sentence
   | Better  | good |
   | studies | study |
   | was  | be| 
+
+  * If you want an example of lemmatization run this code : ` python lemmatization.py`
   
 
 
