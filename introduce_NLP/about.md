@@ -80,7 +80,7 @@ POS tagging assigns a grammatical label to each word in a sentence
 
   * To exercise with tagging Part of Speech run the following code: `python tagging_part_of_speech.py`
 
-  ## Lemmatization
+## Lemmatization
   Lemmatization is the process of reducing word to its base (root) form (called a lemma) using linguistic rules or vocabulary knowledge.
   * Example:
     
