@@ -54,3 +54,31 @@ One commonly used stemming algorithm is the Porter Stemming Algorithm, which app
 * **Stemming underestimation** occurs when two related words that are expected to reduce to the same root form fail to do so. This is False negative
 * **Stemming overestimation** happens when two unrelated words are reduced to the same root. This results in a false positive.,
 * To to perform stemmization run the following code:   ` python learn_stemming.py`
+
+## Tagging Part of Speech (POS)
+Part of Speech is important in NLP because it helps a computer to understand the grammatical rolo of each word in a sentence: whether word is noun, pronoun, verb, adjective, adverb , etc.
+Without POS tagging, text is just a sequence of words.  With POS tagging the system understand the structure and meaning better.
+### What is POS Tagging?
+POS tagging assigns a grammatical label to each word in a sentence
+* Example: "she is reading a book."
+   * she : Pronoun
+   * is : verb
+   * reading: verb
+   * a : determinant
+   * book : noun
+* **Example of Part of Speech**
+  |Part of Speech | Role |  Examples |
+  |---------------|---------|-----------|
+  | Noun        | person, place, thing | mountain, bagel, Poland|
+  | Pronoun   | Replaces noun | you, she, we |
+  | Adjective | Gives information about what a noun is like | efficient, windy, colorful |
+  | Verb  | Is an action or state of being | learn , is, go |
+  | Adverb | Gives an information about verb, adjective, or another adverb | efficiently, always, very|
+  | Preporsition | Gives an information about how a noun  or pronoun is connected to another word | from, about, at |
+  | Conjunction | Connects two other words or sentence | so, because, and |
+  | Interjection | Is an exclamation | yay, wow, ow |
+
+  * To exercise with tagging Part of Speech run the following code: `python tagging_part_of_speech.py`
+
+
+
